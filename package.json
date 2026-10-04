@@ -1,0 +1,27 @@
+{
+  "name": "webcontrol-mcp",
+  "version": "1.0.0",
+  "description": "Let Claude control any website — open pages, click, fill forms, grab text and screenshots. Faster than playwright-mcp.",
+  "main": "src/index.js",
+  "bin": {
+    "webcontrol-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "browser-automation",
+    "playwright",
+    "web-automation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}
